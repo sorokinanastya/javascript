@@ -57,12 +57,12 @@
   }
   .hero__title {
     font-size: 60px;
-    line-height: 73;
+    line-height: 73px;
     margin-bottom: 10px;
   }
   .hero__subtitle {
     font-size: 16px;
-    line-height: 21;
+    line-height: 21px;
     max-width: 354px;
     margin-bottom: 24px;
   }

@@ -35,7 +35,7 @@
   }
   .header__navigation_open {
     transform: translateY(
-      100%
+    calc(100%-1px)
     ); /* элемент спускается вниз и выпадает из header'a */
   }
 }

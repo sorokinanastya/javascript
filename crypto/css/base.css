@@ -38,8 +38,37 @@ p {
   margin: 0 auto;
   padding: 0 30px;
 }
+/* modal */
+.overlay {
+  position: fixed;
+  inset: 0; /* top right left bottom 0 */
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transition-property: opacity, visibility;
+  transition-duration: 0.36s;
+  transition-timing-function: ease-in-out;
+  white-space: nowrap;
+  text-align: center;
 
-/* адаптив  */
+}
+
+.overlay:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.overlay_open {
+  visibility: visible;
+  opacity: 1;
+}
+/* adaptative  */
 
 @media (max-width: 1024px) {
   .container {
