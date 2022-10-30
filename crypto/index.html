@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/index.css" />
     <title>Crypto - Ваш самый надежный сервис обмена криптовалюты</title>
-    <script src="js/index.js" defer></script>
+    <script src="js/index.js" type="module"></script>
   </head>
   <body>
     <header class="header">
@@ -50,20 +50,20 @@
       </section>
     </main>
 
-    <div class="overlay overlay_open">
-      <div class="modal modal_open">
+    <div class="overlay">
+      <div class="modal">
         <div class="modal__container">
           <h2 class="modal__title">Мгновенная регистрация на платформе</h2>
           <form action="#" class="modal__form">
             <fieldset class="modal__person">
-              <label class="modal__label">Имя</label>
-              <input type="text" class="modal__input" name="name" />
+              <label class="modal__label">Имя
+              <input type="text" class="modal__input" name="name" /></label>
 
-              <label class="modal__label">Фамилия</label>
-              <input type="text" class="modal__input" name="surname" />
+              <label class="modal__label">Фамилия
+              <input type="text" class="modal__input" name="surname" /></label>
 
-              <label class="modal__label">Номер телефона</label>
-              <input type="text" class="modal__input" name="tel" />
+              <label class="modal__label">Номер телефона
+              <input type="text" class="modal__input" name="tel" /></label>
             </fieldset>
             <button class="modal__order" type="submit">
               Зарегестрироваться
